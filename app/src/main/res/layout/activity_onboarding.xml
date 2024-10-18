@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/task1"
+        android:contentDescription="Pro-Todo Logo" />
+
+    <!-- Headline Text -->
+    <TextView
+        android:id="@+id/headlineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appLogo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Plan. Organize. Achieve."
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black" />
+
+    <!-- Subtext -->
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headlineText"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Stay on top of your tasks with Pro-Todo."
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="#555555"
+        android:textAlignment="center" />
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/subText"
+        android:layout_centerHorizontal="true"
+        android:text="Get Started"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/purple"
+        android:fontFamily="@font/poppins_semibold"
+        android:background="@drawable/button_background"
+        android:elevation="8dp" />
+
+    <!-- Optional Progress Indicator -->
+
+    <!-- Footer Login Option -->
+    <TextView
+        android:id="@+id/loginOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Already have an account? Login"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/purple" />
+</RelativeLayout>
