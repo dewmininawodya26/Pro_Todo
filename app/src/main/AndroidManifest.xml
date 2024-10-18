@@ -12,20 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pro_Todo"
         tools:targetApi="31">
-
+        <activity
+            android:name="com.example.taskapp.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.taskapp.MainActivity"
+            android:exported="false" />
         <activity
             android:name="com.example.taskapp.UpdateNoteActivity"
             android:exported="false" />
-
         <activity
             android:name="com.example.taskapp.AddNoteActivity"
             android:exported="false" />
-
         <activity
-            android:name="com.example.taskapp.MainActivity"
+            android:name="com.example.taskapp.OnboardingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
