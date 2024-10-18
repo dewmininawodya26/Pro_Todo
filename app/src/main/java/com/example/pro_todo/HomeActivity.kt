@@ -25,7 +25,7 @@ class HomeActivity : AppCompatActivity() {
 //        binding.upcomingTasksRecyclerView.layoutManager = LinearLayoutManager(this)
 //        binding.upcomingTasksRecyclerView.adapter = notesAdapter
 
-        binding.addButton.setOnClickListener {
+        binding.addButton1.setOnClickListener {
             val intent = Intent(this, AddNoteActivity::class.java)
             startActivity(intent)
         }
